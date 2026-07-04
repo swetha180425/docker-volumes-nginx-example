@@ -1,0 +1,2 @@
+docker run -itd --name containername -p 1111:80 --mount src= app-volume,destination=/usr/share/nginx/html/  nginx ( while creating container attached volume and mounted to container of path nginx)
+volume contain source code that code go to the nginx path in container so we can access application
